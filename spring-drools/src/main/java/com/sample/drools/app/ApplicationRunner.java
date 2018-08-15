@@ -1,12 +1,12 @@
-package com.baeldung.spring.drools.app;
+package com.sample.drools.app;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.baeldung.spring.drools.model.TaxiRide;
-import com.baeldung.spring.drools.model.Fare;
-import com.baeldung.spring.drools.service.TaxiFareCalculatorService;
-import com.baeldung.spring.drools.service.TaxiFareConfiguration;
+import com.sample.drools.model.TaxiRide;
+import com.sample.drools.model.Fare;
+import com.sample.drools.service.TaxiFareCalculatorService;
+import com.sample.drools.service.TaxiFareConfiguration;
 
 public class ApplicationRunner {
 

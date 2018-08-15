@@ -1,4 +1,4 @@
-package com.baeldung.spring.drools.model;
+package com.sample.drools.model;
 
 public class Fare {
 
