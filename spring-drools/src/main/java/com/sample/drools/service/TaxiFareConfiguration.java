@@ -1,4 +1,4 @@
-package com.baeldung.spring.drools.service;
+package com.sample.drools.service;
 
 import org.kie.api.KieServices;
 import org.kie.api.builder.KieBuilder;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.baeldung.spring.drools.service")
+@ComponentScan("com.sample.drools.service")
 public class TaxiFareConfiguration {
 
     public static final String drlFile = "TAXI_FARE_RULE.drl";

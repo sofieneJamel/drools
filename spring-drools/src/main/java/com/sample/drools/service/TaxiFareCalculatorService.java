@@ -1,12 +1,12 @@
-package com.baeldung.spring.drools.service;
+package com.sample.drools.service;
 
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.baeldung.spring.drools.model.Fare;
-import com.baeldung.spring.drools.model.TaxiRide;
+import com.sample.drools.model.Fare;
+import com.sample.drools.model.TaxiRide;
 
 @Service
 public class TaxiFareCalculatorService {
